@@ -19,9 +19,6 @@ git_override(
     module_name = "score_baselibs",
     branch = "rh-main",
     patch_strip = 1,
-    patches = [
-        "//patches/baselibs:003-acl-fixes-for-aarch64.patch",
-    ],
     remote = "https://github.com/eclipse-score-fork-rh/baselibs.git",
 )
 
