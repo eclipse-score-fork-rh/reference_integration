@@ -16,9 +16,6 @@ name: build latest mains
 on:
   workflow_dispatch:
   pull_request:
-  push:
-  # schedule:
-  #   - cron: '30 2 * * *'  # Every night at 02:30 UTC on main branch
 jobs:
   integration_test:
     if: false # Temporarily disabled until we get things sorted out

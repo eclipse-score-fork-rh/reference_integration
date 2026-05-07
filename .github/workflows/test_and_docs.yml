@@ -19,9 +19,6 @@ permissions:
 on:
   pull_request: # Temporary allow only PRs from upstream until release v0.7
     types: [opened, reopened, synchronize]
-  push:
-    branches:
-      - main
   merge_group:
     types: [checks_requested]
   release:

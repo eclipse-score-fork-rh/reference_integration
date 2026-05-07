@@ -14,9 +14,6 @@ name: Internal Tooling Tests
 on:
   pull_request:
     types: [opened, reopened, synchronize]
-  push:
-    branches:
-      - main
 jobs:
   internal_tests:
     uses: eclipse-score/cicd-workflows/.github/workflows/tests.yml@main
