@@ -40,7 +40,8 @@ git_override(
 bazel_dep(name = "score_persistency")
 git_override(
     module_name = "score_persistency",
-    branch = "rh-main",
+    # branch = "rh-main",
+    commit = "438bf9b5c447fd41ad43b321679dd3d1b3a6c737",
     remote = "https://github.com/eclipse-score-fork-rh/persistency.git",
 )
 
